@@ -106,9 +106,12 @@ pre code {
 }
 
 .rsschool-logo {
+    margin:230px 0 0 0;
+    padding: 0;
+}
+
+.rsschool-logo img{
     width: 100%;
-    position: relative;
-    top:228px;
 }
 
 .contacts {
