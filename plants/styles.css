@@ -125,11 +125,43 @@ header .navbar {
 }
 
 .about {
+    display: flex;
     background: #FFFFFF;
     width: 1440px;
     height: 666px;
+    box-sizing: border-box;
+    padding: 93px 109px;
 }
 
 .about .about_text {
-    
+    width: 605px;
+    height: 350px;
+    margin-top: 68px;
+}
+
+.about .about_text h2{
+    width: 463px;
+    height: 102px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    color: #499A18;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+}
+
+.about .about_text p {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    width: 605px;
+    height: 208px;
+}
+
+.about img {
+    margin-left: 153px;
 }
