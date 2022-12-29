@@ -170,4 +170,109 @@ header .navbar {
     background-color: #EDF2EC;
     width: 1440px;
     height: 1300px;
+    box-sizing: border-box;
+    padding: 40px 109px 121px;
+}
+
+.service .services_content {
+    width: 1007px;
+    height: 94px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.service .services_content h2 {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    width: 306px;
+    height: 94px;
+    margin: 0;
+    display: flex;
+}
+
+.service .services_content .services_btns {
+    display: flex;
+    margin-left: 142px;
+    justify-content: space-between;
+    width: 559px;
+    height: 50px;
+}
+
+.service .services_content .services_btns .btn {
+    box-sizing: border-box;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    cursor: pointer;
+}
+
+
+.service .services_content .services_btns .btn:hover {
+    color: #EDF2EC;
+    transition: 500ms;
+    background-color: #E06733;
+}
+
+.service .services {
+    display: grid;
+    margin-top: 90px;
+    width: 1222px;
+    height: 955px;
+}
+
+.service .services .service_item {
+    display: grid;
+    width: 330px;
+    height: 450px;
+}
+
+.service .services .service_item img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.service .services .service_item .rectangle {
+    box-sizing: border-box;
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.service .services .service_item .rectangle h2 {
+    margin: 10px 0 0 0;
+}
+
+.service .services .service_item .rectangle h2 a {
+    width: 120px;
+    height: 24px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    margin: 10px 105px 0;
+}
+
+.service .services .service_item .rectangle p {
+    margin: 10px 31px 0;
+    width: 267.19px;
+    height: 20px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
 }
