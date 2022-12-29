@@ -225,10 +225,13 @@ header .navbar {
 }
 
 .service .services {
-    display: grid;
+    display: flex;
     margin-top: 90px;
     width: 1222px;
     height: 955px;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .service .services .service_item {
