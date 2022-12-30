@@ -257,6 +257,7 @@ header .navbar {
 }
 
 .service .services .service_item .rectangle h2 a {
+    display: flex;
     width: 120px;
     height: 24px;
     font-family: 'Inika', serif;
@@ -265,7 +266,8 @@ header .navbar {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 0;
+    margin: 10px auto 0;
+    justify-content: center;
 }
 
 .service .services .service_item .rectangle p {
@@ -278,4 +280,10 @@ header .navbar {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
+}
+
+.prices {
+    width: 1440px;
+    height: 560px;
+    background: #FFFFFF;
 }
