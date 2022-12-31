@@ -294,6 +294,8 @@ header .navbar {
     width: 1222px;
     height: 405px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .prices .prices_wrapper .leafs {
@@ -302,4 +304,104 @@ header .navbar {
     height: 174.99px;
     bottom: 0;
     right: 0;
+}
+
+.prices .prices_wrapper .prices_bar {
+    width: 332px;
+    height: 391.01px;
+}
+
+.prices .prices_wrapper .prices_bar h2 {
+    width: 135px;
+    height: 49px;
+    margin: 0;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.prices .prices_wrapper .prices_bar .prices_items {
+    display: flex;
+    box-sizing: border-box;
+    padding: 34px 41px;
+    width: 332px;
+    height: 282.01px;
+    margin-top: 60px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prices .prices_wrapper .prices_bar .prices_items .prices_item {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 16px 40px;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.prices .prices_wrapper .prices_bar .prices_items .prices_item .accordeon_btn{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.prices .prices_wrapper .text_call_us {
+    display: flex;
+    width: 452px;
+    height: 191.01px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.prices .prices_wrapper .text_call_us h2 {
+    width: 452px;
+    height: 103px;
+    margin: 0;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.prices .prices_wrapper .text_call_us .btn {
+    box-sizing: border-box;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+.prices .prices_wrapper .text_call_us .btn:hover {
+    color: #EDF2EC;
+    transition: 500ms;
+    background-color: #E06733;
 }
