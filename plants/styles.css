@@ -1,4 +1,4 @@
-body {
+.w1440px {
     width: 1440px;
     margin: auto;
 }
@@ -11,10 +11,6 @@ a {
 header {
     height: 134px;
     background-color: #EDF2EC;
-}
-
-main {
-    background-color: #EDF2EC;;
 }
 
 .navbar {
@@ -60,6 +56,16 @@ header .navbar {
     color: #000000;
 }
 
+.welcome {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    height: 532px;
+    padding: 62px 109px;
+    box-sizing: border-box;
+    background-color: #EDF2EC;
+}
+
 .leafs {
     position: relative;
     width: 448.8px;
@@ -69,13 +75,6 @@ header .navbar {
 .welcome_text {
     margin-left: 224px;
     margin-top: 36px;
-}
-
-.welcome {
-    display: flex;
-    height: 532px;
-    padding: 62px 109px;
-    box-sizing: border-box;
 }
 
 .welcome_text h1 {
@@ -169,6 +168,7 @@ header .navbar {
 .service {
     background-color: #EDF2EC;
     width: 1440px;
+    margin: auto;
     height: 1300px;
     box-sizing: border-box;
     padding: 40px 109px 121px;
@@ -283,7 +283,18 @@ header .navbar {
 }
 
 .prices {
+    box-sizing: border-box;
+    padding: 40px 109px 115px;
     width: 1440px;
     height: 560px;
     background: #FFFFFF;
+}
+
+.prices .prices_wrapper {
+    width: 1222px;
+    height: 405px;
+}
+
+.prices .prices_wrapper .leafs {
+    
 }
