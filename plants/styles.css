@@ -293,8 +293,13 @@ header .navbar {
 .prices .prices_wrapper {
     width: 1222px;
     height: 405px;
+    position: relative;
 }
 
 .prices .prices_wrapper .leafs {
-    
+    position: absolute;
+    width: 152px;
+    height: 174.99px;
+    bottom: 0;
+    right: 0;
 }
