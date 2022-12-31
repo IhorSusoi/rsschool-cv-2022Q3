@@ -457,3 +457,35 @@ header .navbar {
     display: flex;
     margin-top: 12px;
 }
+
+footer {
+    width: 1440px;
+    height: 130px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 40px 109px;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer_data {
+    height: 50px;
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social_list {
+    width: 188px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 9px 3px;
+    display: flex;
+    justify-content: space-between;
+}
